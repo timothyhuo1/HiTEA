@@ -21,6 +21,14 @@
     padding-top: 10px;
 }
 
+.grid-image{
+  width: 100%;
+}
+
+#grid-bg{
+  background-color: #E6E7E6;
+}
+
 .food{
   width: 100%;
   background-size: cover;
@@ -62,7 +70,7 @@
 }
 
 .index-grid{
-  padding: 50px;
+  padding: 100px;
 }
 
 /* Slideshow css begin */

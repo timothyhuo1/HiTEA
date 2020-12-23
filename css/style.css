@@ -44,6 +44,7 @@
 .about-img{
   width: 100%;
   background-repeat: no-repeat;
+  opacity: 0.8;
 }
 
 .about-centered{
@@ -58,6 +59,10 @@
 
 .center.aligned.column h2{
  font-weight: normal;
+}
+
+.index-grid{
+  padding: 50px;
 }
 
 /* Slideshow css begin */

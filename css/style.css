@@ -26,6 +26,40 @@
   background-size: cover;
 }
 
+.about-drink{
+    width: 100%;
+    min-width: 300px;
+    background-repeat: no-repeat;
+}
+
+.about-center{
+  padding: 50px;
+}
+
+.about-banner{
+  width: 100%;
+  margin-top: -15px;
+}
+
+.about-img{
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.about-centered{
+  position: absolute;
+  margin-top: -40%;
+  margin-left: 45%;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.center.aligned.column h2{
+ font-weight: normal;
+}
+
 /* Slideshow css begin */
 /* https://codepen.io/Coding_Journey/pen/mZdOGJ  */
 .intro {
@@ -44,7 +78,7 @@
 
 .intro .intro-header{
   border-radius: 0.5rem;
-  padding: 2rem 2.5rem;
+  padding: 1.5rem 2.0rem;
   background-color: rgba(0,0,0,0.5);
   letter-spacing: 0.1rem;
 }

@@ -2,7 +2,7 @@
     font-family: 'Nunito', sans-serif;
 }
 
-.ui.secondary.borderless.large.menu{
+.ui.borderless.large.menu{
   background-color: rgba(198, 255, 179, 0.90);
   font-family: 'Nunito', sans-serif;
 }
@@ -19,6 +19,11 @@
     font-size: 1em;
     padding-bottom: 10px;
     padding-top: 10px;
+}
+
+.food{
+  width: 100%;
+  background-size: cover;
 }
 
 /* Slideshow css begin */

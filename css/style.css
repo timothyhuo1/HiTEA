@@ -73,6 +73,15 @@
   padding: 100px;
 }
 
+.layer{
+  margin-top: 5px;
+  width: 100%;
+  padding: 30px 0 0px;
+}
+
+.content{
+  margin-bottom: -30px;
+}
 /* Slideshow css begin */
 /* https://codepen.io/Coding_Journey/pen/mZdOGJ  */
 .intro {

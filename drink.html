@@ -12,7 +12,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/main.js" defer></script>
+    <script src="js/dropdown.js" defer></script>
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
     </style>
@@ -24,12 +24,13 @@
         <a class="left item"><img class="ui small image" src="images/HiTea.png" alt="HiTea-Logo"></a>
         <a href="index.html" class="item">HOME</a>
         <div class="ui compact item">
-          <div class="ui simple dropdown item">
-            MENU <i class="dropdown icon"></i>
-            <div class="menu">
-              <a href="food.html" class="item">FOOD</a>
-              <a href="drink.html" class="item">DRINKS</a>
-            </div>
+          <div class="ui dropdown">
+            <div class="text">MENU</div>
+            <i class="dropdown icon"></i>
+              <div class="menu">
+                <a href="food.html" class="item">FOOD</a>
+                <a href="drink.html" class="item">DRINKS</a>
+              </div>
           </div>
         </div>
         <a href="about.html" class="item">ABOUT US</a>
@@ -37,11 +38,12 @@
 " class="item">ORDER NOW</a>
       </div>
     </div>
+    <!-- NavBar End -->
 
     <div class="ui container">
       <h1>Ala Moana Drink Menu</h1>
-      <img class="food" src="images/AMC1.JPG" alt="drink1">
-      <img class="food" src="images/AMC2.JPG" alt="drink2">
+      <img class="food" src="images/AMC1.jpg" alt="drink1">
+      <img class="food" src="images/AMC2.jpg" alt="drink2">
     </div>
     <br>
     <!-- Footer -->
@@ -52,6 +54,7 @@
           <div class="text">
             <div class="ui list">
               <div class="item">Address:</div>
+              <div class="item">Located at the Lanai Food Court in Ala Moana Center</div>
               <div class="item">1450 Ala Moana Blvd. Honolulu, HI 96814</div>
               <br>
               <div class="item">Telephone:</div>
@@ -64,7 +67,6 @@
           <div class="text">
             <div class="ui list">
               <div class="item">Hours:</div>
-              <br>
               <div class="item">Monday-Thursday: 10:30am to 7:00pm</div>
               <div class="item">Saturday-Friday: 10:30am to 8:00pm</div>
               <div class="item">Sunday: 10:30am to 6:00pm</div>

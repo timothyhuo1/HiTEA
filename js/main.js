@@ -21,3 +21,7 @@ function nextImage(){
 }
 
 // Slideshow animation by "coding journey" ENDS
+
+$('.ui.dropdown')
+  .dropdown()
+;

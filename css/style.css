@@ -2,6 +2,10 @@
     font-family: 'Nunito', sans-serif;
 }
 
+.post {
+   box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+}
+
 .ui.borderless.large.menu{
   background-color: rgba(198, 255, 179, 0.90);
   font-family: 'Nunito', sans-serif;
@@ -130,7 +134,7 @@
   z-index: -1;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   html { font-size: 12px; }
   .intro-header { padding: 1.5rem 2rem; }
   .intro h1 { font-size: 2.5rem; }
